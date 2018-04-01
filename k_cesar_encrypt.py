@@ -1,6 +1,5 @@
 # Caesar's Method to encrypt and decrypt messages
 
-
 def cesar_encrypt(n,message):
   abc_list = 'A"a#B$b%C&c/D(d)E¡e!F¿f?G¡g!H\'h<I=i>J´j+K-k_L.l,M;m[N]n\\Ñ@ñ¨O^o~P{|}p°Q0q1R2r3S4s5T6t7U8u9VvWwXxYyZz'
   print ("el tamaño de la cadena es: ", len(abc_list))
