@@ -45,6 +45,8 @@ def cesar_decrypt(n,message):
 
 
 while True:
+  print ()
+  print ()
   print ("\n***Caesar Method's***")
   print ("""\nSelect what you want do do:
     1: Encrypt a message
