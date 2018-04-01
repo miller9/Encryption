@@ -1,4 +1,4 @@
-# Cesar Metod to encrypt and decrypt messages
+# Caesar's Method to encrypt and decrypt messages
 
 
 def cesar_encrypt(n,message):
@@ -45,7 +45,7 @@ def cesar_decrypt(n,message):
 
 
 while True:
-  print ("\n***Cesar Metod***")
+  print ("\n***Caesar Method***")
   print ("""\nSelect what you want do do:
     1: Encrypt a message
     2: Decrypt a message
