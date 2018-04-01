@@ -1,4 +1,4 @@
-# Cesar Metod to encrypt and decrypt messages
+# Caesar Method's to encrypt and decrypt messages
 
 
 def cesar_encrypt(n,message):
@@ -48,7 +48,7 @@ def cesar_decrypt(n,message):
 
 
 while True:
-	print ("\n***Cesar Metod***")
+	print ("\n***Caesar Method's***")
 	print ("""\nSelect what you want do do:
 		1: Encrypt a message
 		2: Decrypt a message
@@ -58,7 +58,7 @@ while True:
 	if option == 1:
 		print ("\n---")
 		print ("You choose to encrypt:")
-		n = int( input("Enter the 'key' value to encrypt --> number between 0 and 27: ") )
+		n = int( input("Enter the 'key' value to encrypt --> number between 0 and 26: ") )
 		message = str( input("Enter the message to encrypt: ") )
 		cesar_encrypt(n,message)
 		print ("---")
@@ -66,7 +66,7 @@ while True:
 	elif option == 2:
 		print ("\n---")
 		print ("You choose to decrypt:")
-		n = int( input("Enter the 'key' value to decrypt --> number between 0 and 27: ") )
+		n = int( input("Enter the 'key' value to decrypt --> number between 0 and 26: ") )
 		message = str( input("Enter the message to encrypt: ") )
 		cesar_decrypt(n,message)
 		print ("---")

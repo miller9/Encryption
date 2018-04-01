@@ -48,7 +48,7 @@ while True:
   print ()
   print ()
   print ('-'*75)
-  print ("*** Caesar Method's ***")
+  print (' '*26,"*** Caesar Method's ***")
   print ('-'*75)
   print ("""\nSelect what you want do do:
     1: Encrypt a message
