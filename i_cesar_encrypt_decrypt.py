@@ -5,6 +5,7 @@ def cesar_encrypt(n,message):
 	abc_list = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','ñ','o','p','q','r','s','t','u','v','w','x','y','z']
 	zabc = ['abcdefghijklmnñopqrstuvwxyz']
 	ZABC = ['ABCDEFGHIJKLMNÑOPQRSTUVWXYZ']
+	# what about using a single array?
 	temp = '?'
 	msn_to_encrypt = ""
 	i = 0
